@@ -1,22 +1,15 @@
 /**
  * Script to combine results tables exported by QuPath.
  *
- * This is particularly intended to deal with the fact that results tables of annotations can produce results
- * with different column names, numbers and orders - making them awkward to combine later manually.
- *
  * It prompts for a directory containing exported text files, and then writes a new file in the same directory.
  * The name of the new file can be modified - see the first lines below.
  *
- * Note: This hasn't been tested very extensively - please check the results carefully, and report any problems so they
- * can be fixed!
- *
- * @author Pete Bankhead
+ * Note: The Measurement Export now in QuPath 0.2.0 likely means this script is no longer needed
  */
 
 import qupath.lib.gui.QuPathGUI
 
-// Some parameters you might want to change...
-String ext = '.txt' // File extension to search for
+String ext = '.txt' 
 String delimiter = '\t' // Use tab-delimiter (this is for the *input*, not the output)
 String outputName = 'Combined_results.txt' // Name to use for output; use .csv if you really want comma separators
 
