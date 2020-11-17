@@ -1,6 +1,4 @@
-# Published_Scripts
-
-* FIVER paper pre-publish - Tennant, et al. 2020
+# FIVER paper scripts - Tennant, et al. 2020
   * Classify_Ratio_Nucleus_Band_MEFs.groovy (QuPath)
   * Classify_Ratio_Nucleus_Band_MTECs.groovy (QuPath)
   * Combine_Project_Results.groovy (QuPath)
