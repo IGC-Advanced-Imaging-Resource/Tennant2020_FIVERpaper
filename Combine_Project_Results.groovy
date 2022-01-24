@@ -4,7 +4,7 @@
  * It prompts for a directory containing exported text files, and then writes a new file in the same directory.
  * The name of the new file can be modified - see the first lines below.
  *
- * Note: The Measurement Export now in QuPath 0.2.0 likely means this script is no longer needed
+ * Note: The Measurement Export added in QuPath 0.2.0 likely means this script is no longer needed
  */
 
 import qupath.lib.gui.QuPathGUI
