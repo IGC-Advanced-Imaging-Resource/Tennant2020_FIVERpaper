@@ -1,4 +1,7 @@
-# FIVER paper scripts - Tennant, et al. 2020
+# Scripts used in Tennant, et al., 2020 - Fluorescent in vivo editing reporter (FIVER): A novel multispectral reporter of in vivo genome editing
+
+[bioRxiv link](https://www.biorxiv.org/content/10.1101/2020.07.14.200170v1)
+
   * Classify_Ratio_Nucleus_Band_MEFs.groovy (QuPath)
   * Classify_Ratio_Nucleus_Band_MTECs.groovy (QuPath)
   * Combine_Project_Results.groovy (QuPath)
